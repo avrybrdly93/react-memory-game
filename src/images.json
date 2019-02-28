@@ -1,0 +1,20 @@
+[
+    {
+        "image": "../../public/img/dog1.jpg"
+    },
+    {
+        "image": "../public/img/dog1.jpg"
+    },
+    {
+        "image": "/public/img/dog1.jpg"
+    },
+    {
+        "image": "img/dog1.jpg"
+    },
+    {
+        "image": "./../../public/img/dog1.jpg"
+    },
+    {
+        "image": "./../public/img/dog1.jpg"
+    }
+]
