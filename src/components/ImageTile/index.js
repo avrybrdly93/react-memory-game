@@ -1,12 +1,12 @@
 import React from 'react';
+import './style.css';
 
 function ImageTile(props) {
     return(
-        <div className="col s6 m2">
-            <div className="card blue-grey darken-1">
+        <div className="col s6 m3">
+            <div onClick={() => {props.gameClick(props.image)} } className="card blue-grey darken-1">
                 <div className="card-content white-text">
-                    <span className="card-title">Name</span>
-                    <img alt="" src={props.image}/>
+                    <img alt="broken" src={props.image} previous-image={props.previousImage}/>
                 </div>
             </div>
         </div>
